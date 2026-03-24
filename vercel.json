@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "builds": [
+  "buildCommand": "mkdir -p public && cp *.html public/ && cp *.md public/",
+  "outputDirectory": "public",
+  "rewrites": [
     {
-      "src": "*.html",
-      "use": "@vercel/static"
+      "source": "/",
+      "destination": "/thunder-shooter.html"
     }
   ]
 }
