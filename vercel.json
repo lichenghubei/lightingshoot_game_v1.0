@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "buildCommand": "echo 'No build needed'",
-  "outputDirectory": ".",
+  "builds": [],
   "routes": [
     {
       "src": "/",
       "dest": "/thunder-shooter.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "/thunder-shooter.html",
+      "dest": "/thunder-shooter.html"
     }
   ]
 }
