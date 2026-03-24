@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "builds": [],
-  "routes": [
+  "builds": [
     {
-      "src": "/",
-      "dest": "/thunder-shooter.html"
-    },
-    {
-      "src": "/thunder-shooter.html",
-      "dest": "/thunder-shooter.html"
+      "src": "*.html",
+      "use": "@vercel/static"
     }
   ]
 }
