@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "buildCommand": "cp thunder-shooter.html index.html",
-  "outputDirectory": ".",
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" }
-  ]
+  "buildCommand": "mkdir -p public && cp thunder-shooter.html public/index.html",
+  "outputDirectory": "public"
 }
