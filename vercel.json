@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cp thunder-shooter.html index.html && ls -la",
+  "buildCommand": "cp thunder-shooter.html index.html",
   "outputDirectory": ".",
   "rewrites": [
     { "source": "/", "destination": "/index.html" }
