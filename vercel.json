@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "buildCommand": "mkdir -p public && cp *.html public/ && cp *.md public/",
-  "outputDirectory": "public",
+  "buildCommand": "cp thunder-shooter.html index.html",
+  "outputDirectory": ".",
   "rewrites": [
     {
       "source": "/",
-      "destination": "/thunder-shooter.html"
+      "destination": "/index.html"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "name": "lightingshoot-game-v1",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp thunder-shooter.html index.html",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "@vercel/static-build": "^2.6.12"
+  }
+}
